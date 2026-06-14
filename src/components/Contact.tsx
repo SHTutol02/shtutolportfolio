@@ -11,13 +11,17 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitted(true);
-      setFormData({ name: '', email: '', message: '' });
-      setTimeout(() => setSubmitted(false), 3000);
-    }, 1500);
+    
+    const text = `Hello Sajjad, my name is ${formData.name}.\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
+    const whatsappUrl = `https://wa.me/8801920082744?text=${encodeURIComponent(text)}`;
+    
+    // Open WhatsApp in a new tab
+    window.open(whatsappUrl, '_blank');
+    
+    setIsSubmitting(false);
+    setSubmitted(true);
+    setFormData({ name: '', email: '', message: '' });
+    setTimeout(() => setSubmitted(false), 3000);
   };
 
   return (
@@ -125,11 +129,11 @@ export default function Contact() {
                 className="w-full bg-sky-500 hover:bg-sky-600 disabled:bg-sky-500/50 text-white font-bold py-4 rounded-xl transition-colors flex items-center justify-center gap-2"
               >
                 {isSubmitting ? (
-                  <span className="animate-pulse">Sending...</span>
+                  <span className="animate-pulse">Redirecting...</span>
                 ) : submitted ? (
-                  <span className="text-emerald-300">Message Sent!</span>
+                  <span className="text-emerald-300">Opened in WhatsApp!</span>
                 ) : (
-                  <>Send Message <Send className="w-5 h-5" /></>
+                  <>Send via WhatsApp <Send className="w-5 h-5" /></>
                 )}
               </button>
             </form>
