@@ -53,9 +53,7 @@ export default function BrandIdentity() {
             <h2 className="text-2xl font-bold text-white mb-6">Technologies & Approach</h2>
             <div className="flex flex-wrap gap-3">
               <span className="px-4 py-2 bg-[#0B111F] border border-white/10 rounded-lg text-slate-300 font-medium">Adobe Illustrator</span>
-              <span className="px-4 py-2 bg-[#0B111F] border border-white/10 rounded-lg text-slate-300 font-medium">Adobe Photoshop</span>
-              <span className="px-4 py-2 bg-[#0B111F] border border-white/10 rounded-lg text-slate-300 font-medium">Figma</span>
-            </div>
+              <span className="px-4 py-2 bg-[#0B111F] border border-white/10 rounded-lg text-slate-300 font-medium">Adobe Photoshop</span>            </div>
           </section>
 
           <section className="pt-8">
