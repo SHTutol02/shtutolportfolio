@@ -29,7 +29,7 @@ export default function Hero() {
             <Typewriter
               options={{
                 strings: [
-                  'Senior IT Executive',
+                  'Executive IT',
                   'ERP Solution Specialist',
                   'Hardware Engineer',
                   'Professional Graphic Designer'
