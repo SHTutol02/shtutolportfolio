@@ -1,9 +1,9 @@
 export const personalInfo = {
   name: "Sajjad Hossain Tutol",
   role: "IT & ERP System Specialist",
-  about1: "I am Sajjad Hossain Tutol, a dedicated IT & ERP System Specialist. With over 6 years of experience, I have been working on IT infrastructure management and ERP solutions. I am currently working as a Senior Executive at SIM Group.",
+  about1: "I am Sajjad Hossain Tutol, a dedicated IT & ERP System Specialist. With over 7+ years of experience, I have been working on IT infrastructure management and ERP solutions. I am currently working as a Executive at SIM Group.",
   about2: "Besides my IT profession, I am a creative Graphic Designer and Content Creator. I love combining technology with creativity, whether it's a complex database management system or engaging video editing.",
-  experienceYears: "6+",
+  experienceYears: "7+",
   projectsCompleted: "50+",
   email: "tutul.nsa181@gmail.com",
   phone: "01920082744",
@@ -42,7 +42,7 @@ export const skills = [
 export const experience = [
   {
     period: "June 2020 - Present",
-    role: "Senior Executive (IT & ERP)",
+    role: "Executive (IT & ERP Implementation)",
     company: "SIM GROUP",
     description: [
       "ERP System implementation & integration for SCM and Production.",
