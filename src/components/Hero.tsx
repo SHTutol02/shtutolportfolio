@@ -42,7 +42,7 @@ export default function Hero() {
           </div>
 
           <p className="max-w-xl text-slate-400 text-lg md:text-xl mb-10 leading-relaxed">
-            I am currently working as a Senior Executive at SIM GROUP. I specialize in enterprise solutions, IT infrastructure management, and modern graphic design.
+            I am currently working as a Executive at SIM GROUP. I specialize in enterprise solutions, IT infrastructure management, and modern graphic design.
           </p>
 
           <div className="flex flex-wrap gap-4">
